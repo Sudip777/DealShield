@@ -5,7 +5,7 @@
    - [Background](#background)
    - [Problem Statement](#problem-statement)
    - [Objectives](#objectives)
-   - [Scope and Limitation](#scope-and-limitation)
+   - [Scope and Limitation](#scope-and-limitations)
    - [Development Methodology](#development-methodology)
 2. [Background Study and Literature Review](#background-study-and-literature-review)
 3. [System Analysis](#system-analysis)
@@ -25,9 +25,7 @@
      - [Unit Testing](#unit-testing)
      - [System Testing](#system-testing)
 6. [Conclusion](#conclusion)
-  
-7. [References](#references)
-  
+7. [References](#references)  
 
 ## Introduction
 ### Background
@@ -101,7 +99,7 @@ The incremental development strategy will be used for our escrow platform. This 
 
 This approach enhances platform agility and adaptability in the dynamic e-commerce and finance sectors.
 
-## Background and Literature Review
+## Background study and Literature Review
 
 Several studies highlight the challenges associated with trust in online transactions[1]. Consumers face the risk of fraudulent service providers or subpar products. Unsecured payment systems can expose them to data breaches or unauthorized charges[2]. Providers can also be victims of non-payment by consumers after completing services, hindering trust in online marketplaces[3].
 
@@ -296,17 +294,17 @@ Each individual module was tested during the coding phase to ensure proper funct
 ### 5.2.2 System Testing
 System testing was conducted after integration testing to ensure the entire system functions properly. The system was found to meet specifications and function correctly.
 
-## 6. Conclusion
+## Conclusion
 
 This project successfully developed a secure and reliable online escrow platform. Key features such as secure payment processing, user identification, and data encryption were implemented to ensure smooth and secure transactions. The project also explored the evolving security landscape and identified new technologies to enhance platform security.
 
+## References
 
-### References
- [1] S. Marzieh, “Buyers' trust and mistrust in e-commerce platforms.” Information Systems and e-Business Management. November 2021.
- 
- [2] B. Daroch, G. Nagrath, “A study on factors limiting online shopping behaviour of consumers”. Rajagiri Management Journal. April 2021.
- 
- [3] A. Solomon, “Determinants of online escrow service adoption: An experimental study”.Decision Support Systems.
- 
- [4] A. Ali, S. Yukesh, T. Shankar, “Decentralised Escrow Protocol that Facilitates Secure Transactions between Trustless Parties”. Proceedings of the International Conference on Innovative Computing & Communication (ICICC). March 2023
+[1] S. Marzieh, “Buyers' trust and mistrust in e-commerce platforms.” Information Systems and e-Business Management. November 2021.
+
+[2] B. Daroch, G. Nagrath, “A study on factors limiting online shopping behaviour of consumers”. Rajagiri Management Journal. April 2021.
+
+[3] A. Solomon, “Determinants of online escrow service adoption: An experimental study”. Decision Support Systems.
+
+[4] A. Ali, S. Yukesh, T. Shankar, “Decentralised Escrow Protocol that Facilitates Secure Transactions between Trustless Parties”. Proceedings of the International Conference on Innovative Computing & Communication (ICICC). March 2023
 
