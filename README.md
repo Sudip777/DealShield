@@ -24,9 +24,7 @@
    - [Testing](#testing)
      - [Unit Testing](#unit-testing)
      - [System Testing](#system-testing)
-6. [Conclusion and Future Recommendations](#conclusion-and-future-recommendations)
-   - [Conclusion](#conclusion)
-   - [Future Recommendations](#future-recommendations)
+6. [Conclusion](#conclusion)
   
 7. [References](#references)
   
@@ -237,27 +235,9 @@ A weighted scoring recommendation algorithm prioritizes items based on user-defi
 
 3. **Calculate Scores:**
    - Compute scores for each bid using the formula:
-     - **Cost Criteria:** 
-       \[
-       \text{Cost Score} = \frac{\text{Maximum Bid Amount} - \text{Proposed Bid Amount}}{\text{Maximum Bid Amount} - \text{Lowest Bid Amount}}
-       \]
-     - **Rating Criteria:** 
-       \[
-       \text{Rating Score} = \frac{\text{Bidder Rating} - \text{Lowest Possible Rating}}{\text{Highest Possible Rating} - \text{Lowest Possible Rating}}
-       \]
-     - **Age Criteria:** 
-       \[
-       \text{Age Score} = \frac{\text{Current Provider Age} - \text{Youngest Provider Age}}{\text{Oldest Provider Age} - \text{Youngest Provider Age}}
-       \]
-     - **Cost and Trust Score Calculation:**
-       - **Cost Score:** 
-         \[
-         \text{Cost Score} = \text{Cost Criteria} \times \text{Low Cost Preference}
-         \]
-       - **Trust Score:** 
-         \[
-         \text{Trust Score} = \frac{\text{Rating Criteria} + \text{Age Criteria}}{2} \times \text{Trust Preference}
-         \]
+     
+    <img width="487" alt="algorithm" src="https://github.com/user-attachments/assets/307acc06-462a-4fc2-9881-a512bfe489eb">
+
 
 4. **Rank Items:**
    - Rank bids based on their scores, with higher scores indicating a better match.
@@ -316,17 +296,10 @@ Each individual module was tested during the coding phase to ensure proper funct
 ### 5.2.2 System Testing
 System testing was conducted after integration testing to ensure the entire system functions properly. The system was found to meet specifications and function correctly.
 
-## 6. Conclusion and Future Recommendations
+## 6. Conclusion
 
-### 6.1 Conclusion
 This project successfully developed a secure and reliable online escrow platform. Key features such as secure payment processing, user identification, and data encryption were implemented to ensure smooth and secure transactions. The project also explored the evolving security landscape and identified new technologies to enhance platform security.
 
-### 6.2 Future Recommendations
-Future improvements and enhancements for the platform include:
-
-- **Marketplace Integration**: Linking with existing online markets to provide secure payment and escrow services, increasing user base and platform adoption.
-- **Payment Gateway Diversification**: Integrating more payment gateways to offer users greater accessibility and choice.
-- **Internationalization**: Expanding internationally with localization for other languages and currencies, and ensuring compliance with foreign regulations.
 
 ### References
  [1] S. Marzieh, “Buyers' trust and mistrust in e-commerce platforms.” Information Systems and e-Business Management. November 2021.
