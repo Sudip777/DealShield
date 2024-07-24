@@ -1,0 +1,48 @@
+@Address=https://localhost:7240/api/Order
+@Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyVHlwZSI6IkNPTlNVTUVSIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOiJhOTJiM2U3YS01Nzk4LTQ1YmUtYWM3NC1iZGZjNmVjZDY1MmIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJjb25zdW1lckBkZWFsc2hpZWxkLmNvbSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2dpdmVubmFtZSI6IkNvbnN1bWVyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkRlYWxTaGllbGQiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9tb2JpbGVwaG9uZSI6Ijk4NjUyNjI2MjYiLCJleHAiOjE3MjY2NTA0MDksImlzcyI6IkRyYWdvbnNFc2Nyb3ciLCJhdWQiOiJEcmFnb25zRXNjcm93In0.6eBldifGlJ8X2neSRFIlHel6LWB4gzu2irdFGlV5gsI
+@OrderId=a3ce7f9e-0ae8-4209-b993-0f060a4eb6c6
+@ProviderToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyVHlwZSI6IlBST1ZJREVSIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOiJjNWE3YTRiMy01ZGE4LTQ4MmMtOWUzYi1hNTZhM2UwZTk5ZGEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJwcm92aWRlckBkZWFsc2hpZWxkLmNvbSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2dpdmVubmFtZSI6IlByb3ZpZGVyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkRlYWxTaGllbGQiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9tb2JpbGVwaG9uZSI6Ijk4NzM3MzczNzEiLCJleHAiOjE3MjY2NTA0NTIsImlzcyI6IkRyYWdvbnNFc2Nyb3ciLCJhdWQiOiJEcmFnb25zRXNjcm93In0.TjLDQZbcYNsD-ET8YX4rDDUcKJFzJ-Koz-IvGr7vFmQ
+@AdminToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyVHlwZSI6IkFETUlOIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOiIxNGIyMGU5NC1mYTMwLTRhMDMtYTVlZC04YWY2MTliMTQ5YTAiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbkBkZWFsc2hpZWxkLmNvbSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2dpdmVubmFtZSI6IkFkbWluIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkRlYWxTaGllbGQiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9tb2JpbGVwaG9uZSI6IjAwMDAwMDAwMDAiLCJleHAiOjE3MjY2NTc5ODUsImlzcyI6IkRyYWdvbnNFc2Nyb3ciLCJhdWQiOiJEcmFnb25zRXNjcm93In0.reqDRJccYvtNzi6jQMaS6dYy19MtmHbYeRiXLZEg-ek
+
+POST {{Address}}/create
+Content-Type: application/json
+Authorization: Bearer {{Token}}
+
+{
+  "Name": "Build a composite deck in backyard",
+  "Description": "12x16 feet deck with railing. Low-maintenance composite material. Sturdy construction for entertaining.",
+  "AllowedDays": 14,
+  "Cost": 6000
+}
+
+############ Order detail
+GET {{Address}}/{{OrderId}}
+Authorization: Bearer {{AdminToken}}
+
+########## Accept bid
+GET {{Address}}/{{OrderId}}/AcceptBid?BidId=68fdd13b-c7b4-44a7-9c0c-57f1b81aaf8c
+Authorization: Bearer {{Token}}
+
+########## Accept bid with stripe
+GET {{Address}}/{{OrderId}}/AcceptBidWithStripe?BidId=bc2c75c1-acd3-43e8-b297-d43a430bba00
+Authorization: Bearer {{Token}}
+
+########## Get all created order
+GET {{Address}}
+Authorization: Bearer {{ProviderToken}}
+
+####### Mark order completed
+GET {{Address}}/MarkCompleted/{{OrderId}}
+Authorization: Bearer {{ProviderToken}}
+
+###### Verify Order Completion 
+GET {{Address}}/VerifyOrderCompletion/{{OrderId}}
+Authorization: Bearer {{Token}}
+
+### Rate Order
+GET {{Address}}/{{OrderId}}/rate?RatingCount=9
+Authorization: Bearer {{Token}}
+
+### Raise Dispute
+GET {{Address}}/RaiseDispute/{{OrderId}}
+Authorization: Bearer {{Token}}

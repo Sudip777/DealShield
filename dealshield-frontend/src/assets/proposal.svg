@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg version="1.1" id="Uploaded to svgrepo.com" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 width="800px" height="800px" viewBox="0 0 32 32" xml:space="preserve">
+<style type="text/css">
+	.flatshadows_een{fill:#FDFFFF;}
+	.flatshadows_twee{fill:#E1E5E5;}
+	.flatshadows_drie{fill:#C4CCCC;}
+	.flatshadows_vier{fill:#A3AFAF;}
+	.st0{fill:none;}
+	.st1{fill:#8D9999;}
+	.st2{fill:#737F7F;}
+	.st3{fill:#FDFFFF;}
+	.st4{fill:#E1E5E5;}
+	.st5{fill:#C4CCCC;}
+	.st6{fill:#A3AFAF;}
+	.st7{fill:#FFFFFF;}
+</style>
+<g>
+	<rect x="6" y="4" class="flatshadows_twee" width="21" height="27"/>
+	<rect x="7" y="5" class="flatshadows_een" width="19" height="25"/>
+	<polygon class="flatshadows_twee" points="12,7 26,21 26,10 21,5 20,5 20,7 	"/>
+	<path class="flatshadows_vier" d="M20,3v4h-8V3h2c0-1.105,0.895-2,2-2s2,0.895,2,2H20z M18,12h3.293l-2.146,2.146l0.707,0.707
+		L22,12.707V16h1v-5h-5V12z"/>
+	<path class="flatshadows_drie" d="M19,24h-6v-1h6V24z M19,25h-6v1h6V25z M19,27h-6v1h6V27z M8,31h19V6l-1-1v25H7L8,31z M20,4v1h1
+		L20,4z M19.146,14.146L16,17.293l-2-2l-5.161,5.161l0.707,0.707L14,16.707l2,2l3.854-3.854L19.146,14.146z"/>
+</g>
+</svg>
